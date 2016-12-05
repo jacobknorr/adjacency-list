@@ -1,0 +1,3 @@
+./mymake tests/t1 spellcheck
+./myls tests/t2 hash.c
+./myls tests/t3

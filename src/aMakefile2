@@ -1,0 +1,2 @@
+@target t1 : 
+@cmd touch t1

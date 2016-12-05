@@ -1,0 +1,8 @@
+@target spellcheck.o : utils.h   spellcheck.h   spellcheck.c
+@cmd gcc -Wall -c spellcheck.c
+
+@target hash.o : hash.c utils.h hash.h
+@cmd gcc -Wall hash.c
+
+@target spellcheck : hash.o spellcheck.o
+@cmd gcc *.o -o spellcheck
